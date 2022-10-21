@@ -4,7 +4,7 @@ from pymongo import MongoClient
 load_dotenv()
 
 uri = os.getenv('MONGO_URI')
-print(uri)
+#print(uri)
 
 client = MongoClient(uri)
 db = client.BOOKS
